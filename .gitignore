@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Spikes (código descartável): ambiente e saídas geradas
+spikes/.venv/
+spikes/**/ir_*.json
+spikes/**/ir_*.yaml
+
+# Node / interface web
+node_modules/
+web/dist/
+
+# Dados locais e segredos
+.env
+*.db
+*.db-wal
+*.db-shm
+
+# Sistema
+.DS_Store
+Thumbs.db
